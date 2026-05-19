@@ -7,7 +7,7 @@ UTILS_PATH		= utils/
 UTILS			= $(addprefix $(UTILS_PATH), sigsegv.cpp color.cpp check.cpp leaks.cpp)
 
 TESTS_PATH		= tests/
-MANDATORY		= c s p d i u x upperx percent mix
+MANDATORY		= c s p d i u x upperx percent mix stress
 
 BONUS			= minus 0 dot sharp space +
 
